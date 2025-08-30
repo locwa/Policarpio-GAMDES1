@@ -1,0 +1,11 @@
+res://scenes/Level/Level.tscn
+res://scenes/Enemies/AsteroidLarge.tscn
+res://scenes/Player/PlayerShip.tscn
+res://scenes/Player/player_ship.gd
+res://scenes/Enemies/AsteroidSmall.tscn
+res://scenes/Enemies/asteroid.gd
+res://scenes/Enemies/AsteroidMedium.tscn
+res://scenes/Level/asteroid_boundary.gd
+res://scenes/asteroid_boundary.tscn
+res://scenes/asteroid_boundary.gd
+res://scenes/Enemies/Planet.tscn

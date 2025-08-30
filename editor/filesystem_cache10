@@ -1,0 +1,77 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1756512184
+icon.svg::CompressedTexture2D/CompressedTexture2D::7908064462026208262::1755907782::1755907793::1::::<><><>0<>0<>48489426444c03e1d4963a60d0762d21<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+Readme.txt::TextFile/TextFile::-1::1660792704::0::1::::<><><>0<>0<><>::
+::res://Enjl-Starry Space Background/::1755910258
+background_1.png::CompressedTexture2D/CompressedTexture2D::2532903624492482355::1609080078::1755910133::1::::<><><>0<>0<>c1834b03bde60d7611c5805d200d15c0<>res://.godot/imported/background_1.png-d7b4ca2b58053b0a803c6f11cc527016.ctex::
+background_2.png::CompressedTexture2D/CompressedTexture2D::7624190605015608867::1609080086::1755910133::1::::<><><>0<>0<>47fe4a2de5a0a3d5511e7cd3c155d2d0<>res://.godot/imported/background_2.png-3e2beeee2ff4ae3e5093c26e65643771.ctex::
+background_3.png::CompressedTexture2D/CompressedTexture2D::1990706830112183966::1609080094::1755910133::1::::<><><>0<>0<>7121722e3be7741c2cbe1db87460d957<>res://.godot/imported/background_3.png-3a47f6fac4b1d4e58008f43489db42a6.ctex::
+background_4.png::CompressedTexture2D/CompressedTexture2D::5222596603435943462::1609080110::1755910133::1::::<><><>0<>0<>ba5701583121a47cc2dfc805579b5ec6<>res://.godot/imported/background_4.png-155cc00f0b900a2c61ed2e05745d985e.ctex::
+preview.png::CompressedTexture2D/CompressedTexture2D::8944083498644227899::1609080068::1755910133::1::::<><><>0<>0<>a4e406ddb1d2d4a78ba4f0d46e300e6c<>res://.godot/imported/preview.png-6784f4b7ef525c30d38c337e658280b6.ctex::
+::res://Foozle_2DS0011_Void_MainShip/::1660792692
+Readme.txt::TextFile/TextFile::-1::1660792704::0::1::::<><><>0<>0<><>::
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/::1660787028
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Bases/::1660787028
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Bases/Aseprite/::1660787028
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Bases/PNGs/::1755908944
+Main Ship - Base - Damaged.png::CompressedTexture2D/CompressedTexture2D::5685102247324147865::1645754362::1755908944::1::::<><><>0<>0<>8fdb7b24a1c02d8391ec854236fef772<>res://.godot/imported/Main Ship - Base - Damaged.png-bb75aa69b584481fde61343988eec9c0.ctex::
+Main Ship - Base - Full health.png::CompressedTexture2D/CompressedTexture2D::5251262288528627207::1645754362::1755908944::1::::<><><>0<>0<>4624d97540fc034c504507baf891a439<>res://.godot/imported/Main Ship - Base - Full health.png-50b5583511cec68b7916739af8143a8b.ctex::
+Main Ship - Base - Slight damage.png::CompressedTexture2D/CompressedTexture2D::1379091596464271845::1645754362::1755908944::1::::<><><>0<>0<>e7a7237d78b26f39d589f94efb63661a<>res://.godot/imported/Main Ship - Base - Slight damage.png-6340061ef482a18777672ece1c5868ad.ctex::
+Main Ship - Base - Very damaged.png::CompressedTexture2D/CompressedTexture2D::8708940835003421651::1645754362::1755908944::1::::<><><>0<>0<>c34e6e3aa53e3d4c21bf3d9130163099<>res://.godot/imported/Main Ship - Base - Very damaged.png-afc36db2f59feca1277ff86976150724.ctex::
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Engine Effects/::1660787028
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Engine Effects/Aseprite/::1660791962
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Engine Effects/PNGs/::1755908944
+Main Ship - Engines - Base Engine - Idle.png::CompressedTexture2D/CompressedTexture2D::5949422431606961106::1645754362::1755908944::1::::<><><>0<>0<>fa803e4a8920d4a6347e1b6f507253ee<>res://.godot/imported/Main Ship - Engines - Base Engine - Idle.png-5ca73f61a548d5b90c91b0a0bd10a100.ctex::
+Main Ship - Engines - Base Engine - Powering.png::CompressedTexture2D/CompressedTexture2D::2717006476032542939::1645754362::1755908944::1::::<><><>0<>0<>d75ee412c331b665a2db870f5b33d81c<>res://.godot/imported/Main Ship - Engines - Base Engine - Powering.png-109cbde083bbd5e1aaefd5c863552074.ctex::
+Main Ship - Engines - Base Engine - Spritesheet.png::CompressedTexture2D/CompressedTexture2D::5700913434226138919::1645754362::1755908944::1::::<><><>0<>0<>04872bfaa302060248fa9e8944c03842<>res://.godot/imported/Main Ship - Engines - Base Engine - Spritesheet.png-91eb748db82073bf3c997d7d9b8f064d.ctex::
+Main Ship - Engines - Big Pulse Engine - Idle.png::CompressedTexture2D/CompressedTexture2D::8193243045837886163::1645754362::1755908944::1::::<><><>0<>0<>9c800e606252293d37a616dd17b2e046<>res://.godot/imported/Main Ship - Engines - Big Pulse Engine - Idle.png-5a138c531429d49557dd9ed0e1e9028e.ctex::
+Main Ship - Engines - Big Pulse Engine - Powering.png::CompressedTexture2D/CompressedTexture2D::4716419195653639674::1645754362::1755908944::1::::<><><>0<>0<>911c459faa118e12237d6e61774e6912<>res://.godot/imported/Main Ship - Engines - Big Pulse Engine - Powering.png-25d45c7235cbe9fb15b7b3519a271718.ctex::
+Main Ship - Engines - Big Pulse Engine - Spritesheet.png::CompressedTexture2D/CompressedTexture2D::3462994409141294796::1645754362::1755908944::1::::<><><>0<>0<>e6a268fb1f2924464afcca09e56f2a35<>res://.godot/imported/Main Ship - Engines - Big Pulse Engine - Spritesheet.png-30d1bf0534c93f1669720f827d2c77c1.ctex::
+Main Ship - Engines - Burst Engine - Idle.png::CompressedTexture2D/CompressedTexture2D::1288884696524652628::1645754362::1755908944::1::::<><><>0<>0<>6682575d829d06371f713a6e087390ed<>res://.godot/imported/Main Ship - Engines - Burst Engine - Idle.png-376f9de26d8ebebf565f89365394c056.ctex::
+Main Ship - Engines - Burst Engine - Powering.png::CompressedTexture2D/CompressedTexture2D::7081829567830695130::1645754362::1755908944::1::::<><><>0<>0<>a8df4b407c78a1ac96fa62ec282d1ecf<>res://.godot/imported/Main Ship - Engines - Burst Engine - Powering.png-da44e308660b596660cf9e2ce9bf621d.ctex::
+Main Ship - Engines - Burst Engine - Spritesheet.png::CompressedTexture2D/CompressedTexture2D::5505961979774354111::1645754362::1755908944::1::::<><><>0<>0<>956371eca303f67f3a6e46f114adaeea<>res://.godot/imported/Main Ship - Engines - Burst Engine - Spritesheet.png-05ee1dbcb586fed82755e32fd59eae74.ctex::
+Main Ship - Engines - Supercharged Engine - Idle.png::CompressedTexture2D/CompressedTexture2D::9161628568504102396::1645754362::1755908944::1::::<><><>0<>0<>29d9b21ff7e3fce73f356856879427ec<>res://.godot/imported/Main Ship - Engines - Supercharged Engine - Idle.png-c10748bdcb899fecae3f3e105b12303e.ctex::
+Main Ship - Engines - Supercharged Engine - Powering.png::CompressedTexture2D/CompressedTexture2D::1802874291716439365::1645754362::1755908944::1::::<><><>0<>0<>09d6713c1aff4bcead5f528865e49e06<>res://.godot/imported/Main Ship - Engines - Supercharged Engine - Powering.png-8e582568dbc19dc38e8a5c993e5b769d.ctex::
+Main Ship - Engines - Supercharged Engine - Spritesheet.png::CompressedTexture2D/CompressedTexture2D::6815821599901388594::1645754362::1755908944::1::::<><><>0<>0<>0c84af525d9700652aabb9edaf56136d<>res://.godot/imported/Main Ship - Engines - Supercharged Engine - Spritesheet.png-34bce9f1981b48ed2b611ac241badafa.ctex::
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Engines/::1660787028
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Engines/Aseprite/::1660787028
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Engines/PNGs/::1755908944
+Main Ship - Engines - Base Engine.png::CompressedTexture2D/CompressedTexture2D::3780187512190404546::1645754362::1755908944::1::::<><><>0<>0<>ba5d70a3ac8d88ec547b600a0ff64a71<>res://.godot/imported/Main Ship - Engines - Base Engine.png-81d2d2c358222b867def23a34dab140b.ctex::
+Main Ship - Engines - Big Pulse Engine.png::CompressedTexture2D/CompressedTexture2D::4086707756145496135::1645754362::1755908944::1::::<><><>0<>0<>304cea55e9c4a2af09f9a1b5f7fecdd2<>res://.godot/imported/Main Ship - Engines - Big Pulse Engine.png-17fb6924b14654a653c027782ffba86c.ctex::
+Main Ship - Engines - Burst Engine.png::CompressedTexture2D/CompressedTexture2D::122092833749052376::1645754362::1755908944::1::::<><><>0<>0<>096dede8c138f7c3922acfedab7affd1<>res://.godot/imported/Main Ship - Engines - Burst Engine.png-686f704ae6e398082f87174b4a661854.ctex::
+Main Ship - Engines - Supercharged Engine.png::CompressedTexture2D/CompressedTexture2D::6531162525630290425::1645754362::1755908944::1::::<><><>0<>0<>0780c41f1627b5695dd418481a214c2b<>res://.godot/imported/Main Ship - Engines - Supercharged Engine.png-825135e91106d3589cdeb328fdeb7a98.ctex::
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Shields/::1660787028
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Shields/Aseprite/::1660787028
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Shields/PNGs/::1755908944
+Main Ship - Shields - Front and Side Shield.png::CompressedTexture2D/CompressedTexture2D::3905033218443337866::1645754362::1755908944::1::::<><><>0<>0<>b777d9bb2a4c95c8d76fd23005dc1391<>res://.godot/imported/Main Ship - Shields - Front and Side Shield.png-45f0181b6ab8c20f9ddd2acf4b05c6b3.ctex::
+Main Ship - Shields - Front Shield.png::CompressedTexture2D/CompressedTexture2D::3942999142947048649::1645754362::1755908944::1::::<><><>0<>0<>080b9e7d4250e7a8c053c6c4ab77c7b8<>res://.godot/imported/Main Ship - Shields - Front Shield.png-749885489098c9e167ee4999ba8949c6.ctex::
+Main Ship - Shields - Invincibility Shield.png::CompressedTexture2D/CompressedTexture2D::1111956758464388244::1645754362::1755908944::1::::<><><>0<>0<>f0dc124a12499a5f59a9ef9dd0d32aa7<>res://.godot/imported/Main Ship - Shields - Invincibility Shield.png-4c28bda0457cb46900229523b74f2762.ctex::
+Main Ship - Shields - Round Shield.png::CompressedTexture2D/CompressedTexture2D::5031871916459745353::1645754362::1755908944::1::::<><><>0<>0<>3456b1fe7bcce24cdc62de49d3756467<>res://.godot/imported/Main Ship - Shields - Round Shield.png-7cb466ac0a8ea0bae160db82a05c2359.ctex::
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Weapons/::1660787028
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Weapons/Aseprite/::1660789582
+::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Weapons/PNGs/::1755908944
+Main Ship - Weapons - Auto Cannon.png::CompressedTexture2D/CompressedTexture2D::2426552674093614805::1645754362::1755908944::1::::<><><>0<>0<>c759f28262917783ab48b41248ad5fb2<>res://.godot/imported/Main Ship - Weapons - Auto Cannon.png-a6b9553231f52361289b57a5abc96bb5.ctex::
+Main Ship - Weapons - Big Space Gun.png::CompressedTexture2D/CompressedTexture2D::361156723697053980::1645754362::1755908944::1::::<><><>0<>0<>33820d6bbf684320a7dc901bcdb68433<>res://.godot/imported/Main Ship - Weapons - Big Space Gun.png-c81bc9b8b25f08e8140c1e89f1835083.ctex::
+Main Ship - Weapons - Rockets.png::CompressedTexture2D/CompressedTexture2D::7464461460896097226::1645754362::1755908944::1::::<><><>0<>0<>e5c0273cf6b6d7b43c595961352223da<>res://.godot/imported/Main Ship - Weapons - Rockets.png-4e63cb91303219c18a2b41b402a5f2eb.ctex::
+Main Ship - Weapons - Zapper.png::CompressedTexture2D/CompressedTexture2D::1688917783744141571::1645754362::1755908944::1::::<><><>0<>0<>20ef55ecad1bc97df21c4e259f818c75<>res://.godot/imported/Main Ship - Weapons - Zapper.png-daf2a28b903d9be7739a945311e17075.ctex::
+::res://Foozle_2DS0011_Void_MainShip/Main ship weapons/::1660789766
+::res://Foozle_2DS0011_Void_MainShip/Main ship weapons/Aseprite/::1660789766
+::res://Foozle_2DS0011_Void_MainShip/Main ship weapons/PNGs/::1755908944
+Main ship weapon - Projectile - Auto cannon bullet.png::CompressedTexture2D/CompressedTexture2D::8191225672551171205::1645754362::1755908944::1::::<><><>0<>0<>f6ca6c30af331f3a88651aca044bedbe<>res://.godot/imported/Main ship weapon - Projectile - Auto cannon bullet.png-a5a7e855c2c6bf497e69f95ce929fd49.ctex::
+Main ship weapon - Projectile - Big Space Gun.png::CompressedTexture2D/CompressedTexture2D::8423021918339506815::1645754362::1755908944::1::::<><><>0<>0<>2c8f83def7cbad777dfe10a2fa290cc6<>res://.godot/imported/Main ship weapon - Projectile - Big Space Gun.png-df80f46532d798207e1a0bd83760e921.ctex::
+Main ship weapon - Projectile - Rocket.png::CompressedTexture2D/CompressedTexture2D::2637651287456966556::1645754362::1755908944::1::::<><><>0<>0<>3063e4b69751793498bd2261b31e3c4f<>res://.godot/imported/Main ship weapon - Projectile - Rocket.png-d15d88323ad98ea561c9cd2e892387c5.ctex::
+Main ship weapon - Projectile - Zapper.png::CompressedTexture2D/CompressedTexture2D::3181060704365389557::1645754364::1755908944::1::::<><><>0<>0<>31350cd8a9d01c002ab458f343ee8439<>res://.godot/imported/Main ship weapon - Projectile - Zapper.png-745302b440a257db998531bcbd789d3d.ctex::
+::res://scenes/::1755911749
+::res://scenes/Enemies/::1755919172
+AsteroidLarge.tscn::PackedScene::1398920683560804955::1755913840::0::1::::<><><>0<>0<><>::uid://bbchhump1ou51::::res://scenes/Level/CelestialObjects.png
+AsteroidMedium.tscn::PackedScene::9072621760120751815::1755913839::0::1::::<><><>0<>0<><>::uid://bbchhump1ou51::::res://scenes/Level/CelestialObjects.png
+AsteroidSmall.tscn::PackedScene::7800521931186937794::1755919172::0::1::::<><><>0<>0<><>::uid://bbchhump1ou51::::res://scenes/Level/CelestialObjects.png
+DwarfPlanet.tscn::PackedScene::7052314728505290374::1755913840::0::1::::<><><>0<>0<><>::uid://bbchhump1ou51::::res://scenes/Level/CelestialObjects.png
+Planet.tscn::PackedScene::3956290584667387596::1755913840::0::1::::<><><>0<>0<><>::uid://bbchhump1ou51::::res://scenes/Level/CelestialObjects.png
+::res://scenes/Level/::1755913839
+background.png::CompressedTexture2D/CompressedTexture2D::7266984744409523170::1755910485::1755911758::1::::<><><>0<>0<>ac26554796f147a37c8c63e4856dd53c<>res://.godot/imported/background.png-05a142f91de31340d855e1c61ef8ae3c.ctex::
+CelestialObjects.png::CompressedTexture2D/CompressedTexture2D::2461176872067458902::1599556018::1755911755::1::::<><><>0<>0<>bf51c0e4698a1fdaa7f10125563d0b8a<>res://.godot/imported/CelestialObjects.png-cec01e9fd7194f7a01ac44e5bbd33e63.ctex::
+Level.tscn::PackedScene::2090500765469736245::1755913839::0::1::::<><><>0<>0<><>::uid://dbsggavvda70a::::res://scenes/Level/background.png<>uid://bcc7s13ydhrtb::::res://Enjl-Starry Space Background/background_1.png<>uid://cfxynqhjslnwf::::res://scenes/Player/PlayerShip.tscn<>uid://d2i30wvearf8j::::res://scenes/Enemies/AsteroidMedium.tscn<>uid://djevpr0xwymvi::::res://scenes/Enemies/AsteroidSmall.tscn<>uid://t6wawjrybpqx::::res://scenes/Enemies/AsteroidLarge.tscn<>uid://bwmpr7i5yfevk::::res://scenes/Enemies/Planet.tscn
+::res://scenes/Player/::1755919204
+PlayerShip.tscn::PackedScene::5172747548687551869::1755913839::0::1::::<><><>0<>0<><>::uid://cg20r1he2nde2::::res://Foozle_2DS0011_Void_MainShip/Main Ship/Main Ship - Bases/PNGs/Main Ship - Base - Full health.png
+player_ship.gd::GDScript::1232231027185190749::1755919204::0::1::::<>Node2D<><>0<>0<><>::

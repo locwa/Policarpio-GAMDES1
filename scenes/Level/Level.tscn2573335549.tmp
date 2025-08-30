@@ -1,0 +1,85 @@
+[gd_scene load_steps=8 format=3 uid="uid://41wih7xufjy0"]
+
+[ext_resource type="Texture2D" uid="uid://dbsggavvda70a" path="res://scenes/Level/background.png" id="1_a54cq"]
+[ext_resource type="Texture2D" uid="uid://bcc7s13ydhrtb" path="res://Enjl-Starry Space Background/background_1.png" id="2_3gwmf"]
+[ext_resource type="PackedScene" uid="uid://cfxynqhjslnwf" path="res://scenes/Player/PlayerShip.tscn" id="3_2prus"]
+[ext_resource type="PackedScene" uid="uid://d2i30wvearf8j" path="res://scenes/Enemies/AsteroidMedium.tscn" id="4_f3r0x"]
+[ext_resource type="PackedScene" uid="uid://djevpr0xwymvi" path="res://scenes/Enemies/AsteroidSmall.tscn" id="5_g4usa"]
+[ext_resource type="PackedScene" uid="uid://t6wawjrybpqx" path="res://scenes/Enemies/AsteroidLarge.tscn" id="6_2krsq"]
+[ext_resource type="PackedScene" uid="uid://bwmpr7i5yfevk" path="res://scenes/Enemies/Planet.tscn" id="7_jwpct"]
+
+[node name="Level" type="Node2D"]
+metadata/_edit_group_ = true
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(200.5, 302.5)
+scale = Vector2(0.349827, 0.930556)
+texture = ExtResource("1_a54cq")
+
+[node name="Background2" type="Sprite2D" parent="Background"]
+position = Vector2(597.292, 204)
+scale = Vector2(2.26504, 1)
+texture = ExtResource("2_3gwmf")
+
+[node name="Background3" type="Sprite2D" parent="Background"]
+position = Vector2(24.2361, 205)
+scale = Vector2(2.26504, 1)
+texture = ExtResource("2_3gwmf")
+
+[node name="Background4" type="Sprite2D" parent="Background"]
+position = Vector2(-562.41, 209)
+scale = Vector2(2.26504, 1)
+texture = ExtResource("2_3gwmf")
+
+[node name="Background5" type="Sprite2D" parent="Background"]
+position = Vector2(-272.484, -15)
+scale = Vector2(2.26504, 1)
+texture = ExtResource("2_3gwmf")
+
+[node name="Background6" type="Sprite2D" parent="Background"]
+position = Vector2(311.896, -20)
+scale = Vector2(2.26504, 1)
+texture = ExtResource("2_3gwmf")
+
+[node name="Background10" type="Sprite2D" parent="Background"]
+position = Vector2(-354.026, -227)
+scale = Vector2(2.26504, 1)
+texture = ExtResource("2_3gwmf")
+
+[node name="Background11" type="Sprite2D" parent="Background"]
+position = Vector2(257.536, -234)
+scale = Vector2(2.26504, 1)
+texture = ExtResource("2_3gwmf")
+
+[node name="Player" parent="." instance=ExtResource("3_2prus")]
+position = Vector2(198, 577)
+
+[node name="Asteroid" parent="." instance=ExtResource("4_f3r0x")]
+position = Vector2(162, 189)
+
+[node name="Asteroid2" parent="." instance=ExtResource("5_g4usa")]
+position = Vector2(60, 137)
+
+[node name="Asteroid3" parent="." instance=ExtResource("6_2krsq")]
+position = Vector2(40, 342)
+
+[node name="Asteroid4" parent="." instance=ExtResource("5_g4usa")]
+position = Vector2(312, 271)
+
+[node name="Asteroid5" parent="." instance=ExtResource("4_f3r0x")]
+position = Vector2(161, 420)
+
+[node name="Asteroid6" parent="." instance=ExtResource("4_f3r0x")]
+position = Vector2(288, 459)
+
+[node name="Asteroid7" parent="." instance=ExtResource("6_2krsq")]
+position = Vector2(82, 259)
+
+[node name="Asteroid8" parent="." instance=ExtResource("5_g4usa")]
+position = Vector2(288, 171)
+
+[node name="Asteroid9" parent="." instance=ExtResource("4_f3r0x")]
+position = Vector2(300, 73)
+
+[node name="Planet" parent="." instance=ExtResource("7_jwpct")]
+position = Vector2(72, 49)

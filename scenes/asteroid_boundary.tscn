@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://s233n6tnqvsv"]
+
+[ext_resource type="Script" uid="uid://ce0raabcny40b" path="res://scenes/asteroid_boundary.gd" id="1_5ly8k"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5ly8k"]
+size = Vector2(411, 20)
+
+[node name="AsteroidBoundary" type="Node2D"]
+script = ExtResource("1_5ly8k")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="CharacterBody2D" groups=["boundary"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/Area2D"]
+position = Vector2(195.5, 0)
+shape = SubResource("RectangleShape2D_5ly8k")
+
+[connection signal="area_entered" from="CharacterBody2D/Area2D" to="." method="_on_area_2d_area_entered"]

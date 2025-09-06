@@ -6,8 +6,13 @@ func _on_body_entered(body):
 
 # Function when the node enters the scenetree for the first time
 func _ready():
+	var rng = RandomNumberGenerator.new()
+	var width = get_viewport().get_visible_rect().size[0]
+	
+	var random_x = rng.randi_range(0, width)
+	var random_y = rng.randi_range(-90, -50)
 	# Starting position
-	position = Vector2(randf_range(50, 300),0)
+	position = Vector2(random_x,random_y)
 	# Ship Scale
 	scale = Vector2(1, 1)
 

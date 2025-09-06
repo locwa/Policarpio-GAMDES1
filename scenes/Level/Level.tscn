@@ -1,17 +1,16 @@
-[gd_scene load_steps=9 format=3 uid="uid://41wih7xufjy0"]
+[gd_scene load_steps=7 format=3 uid="uid://41wih7xufjy0"]
 
+[ext_resource type="Script" uid="uid://b55wmmyt8v3h6" path="res://scenes/Level/level.gd" id="1_3gwmf"]
 [ext_resource type="Texture2D" uid="uid://dbsggavvda70a" path="res://scenes/Level/background.png" id="1_a54cq"]
 [ext_resource type="Texture2D" uid="uid://bcc7s13ydhrtb" path="res://Enjl-Starry Space Background/background_1.png" id="2_3gwmf"]
 [ext_resource type="PackedScene" uid="uid://cfxynqhjslnwf" path="res://scenes/Player/PlayerShip.tscn" id="3_2prus"]
-[ext_resource type="PackedScene" uid="uid://d2i30wvearf8j" path="res://scenes/Enemies/AsteroidMedium.tscn" id="4_f3r0x"]
-[ext_resource type="PackedScene" uid="uid://djevpr0xwymvi" path="res://scenes/Enemies/AsteroidSmall.tscn" id="5_g4usa"]
-[ext_resource type="PackedScene" uid="uid://t6wawjrybpqx" path="res://scenes/Enemies/AsteroidLarge.tscn" id="6_2krsq"]
 [ext_resource type="PackedScene" uid="uid://bwmpr7i5yfevk" path="res://scenes/Enemies/Planet.tscn" id="7_jwpct"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_a54cq"]
 size = Vector2(9, 600)
 
 [node name="Level" type="Node2D"]
+script = ExtResource("1_3gwmf")
 metadata/_edit_group_ = true
 
 [node name="Background" type="Sprite2D" parent="."]
@@ -60,15 +59,6 @@ position = Vector2(72, 49)
 [node name="Player" parent="." instance=ExtResource("3_2prus")]
 position = Vector2(198, 577)
 
-[node name="Asteroid2" parent="." instance=ExtResource("5_g4usa")]
-position = Vector2(216, 87)
-
-[node name="Asteroid" parent="." instance=ExtResource("4_f3r0x")]
-position = Vector2(130, 200)
-
-[node name="Asteroid3" parent="." instance=ExtResource("6_2krsq")]
-position = Vector2(320, 176)
-
 [node name="Borders" type="Node2D" parent="."]
 
 [node name="LeftBorder" type="StaticBody2D" parent="Borders"]
@@ -101,3 +91,22 @@ rotation = 1.57133
 position = Vector2(-6.58754, 389.991)
 scale = Vector2(1.19264, -0.701591)
 shape = SubResource("RectangleShape2D_a54cq")
+
+[node name="SmallAsteroidTimer" type="Timer" parent="."]
+wait_time = 1.54
+autostart = true
+
+[node name="MediumAsteroidTimer" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+
+[node name="LargeAsteroidTimer" type="Timer" parent="."]
+wait_time = 3.0
+autostart = true
+
+[node name="Asteroids" type="Node2D" parent="."]
+position = Vector2(0, -1)
+
+[connection signal="timeout" from="SmallAsteroidTimer" to="." method="_on_small_asteroid_timer_timeout"]
+[connection signal="timeout" from="MediumAsteroidTimer" to="." method="_on_medium_asteroid_timer_timeout"]
+[connection signal="timeout" from="LargeAsteroidTimer" to="." method="_on_large_asteroid_timer_timeout"]

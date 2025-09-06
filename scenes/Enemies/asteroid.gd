@@ -2,7 +2,7 @@ extends Area2D
 
 func _on_body_entered(body):
 	print('body entered')
-	print(body)
+	print(body.name)
 
 # Function when the node enters the scenetree for the first time
 func _ready():

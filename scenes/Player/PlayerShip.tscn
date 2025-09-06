@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://bmdd76flj0eg4" path="res://scenes/Player/player_ship.gd" id="1_x4jbp"]
 
 [node name="Player" type="CharacterBody2D" groups=["player"]]
+scale = Vector2(1.5, 1.5)
 script = ExtResource("1_x4jbp")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

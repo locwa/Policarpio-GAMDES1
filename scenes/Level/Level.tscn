@@ -71,33 +71,33 @@ position = Vector2(320, 176)
 
 [node name="Borders" type="Node2D" parent="."]
 
-[node name="StaticBody2D" type="StaticBody2D" parent="Borders"]
+[node name="LeftBorder" type="StaticBody2D" parent="Borders"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/LeftBorder"]
 position = Vector2(-5.5, 300)
 shape = SubResource("RectangleShape2D_a54cq")
 
-[node name="StaticBody2D2" type="StaticBody2D" parent="Borders"]
+[node name="RightBorder" type="StaticBody2D" parent="Borders"]
 position = Vector2(411, 0)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/RightBorder"]
 position = Vector2(-5.5, 300)
 shape = SubResource("RectangleShape2D_a54cq")
 
-[node name="StaticBody2D3" type="StaticBody2D" parent="Borders"]
+[node name="TopBorder" type="StaticBody2D" parent="Borders"]
 position = Vector2(590, 0)
 rotation = 1.56929
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/TopBorder"]
 position = Vector2(-6.58754, 389.991)
 scale = Vector2(1.19264, -0.701591)
 shape = SubResource("RectangleShape2D_a54cq")
 
-[node name="StaticBody2D4" type="StaticBody2D" parent="Borders"]
+[node name="BottomBorder" type="StaticBody2D" parent="Borders"]
 position = Vector2(590, 612)
 rotation = 1.57133
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/BottomBorder"]
 position = Vector2(-6.58754, 389.991)
 scale = Vector2(1.19264, -0.701591)
 shape = SubResource("RectangleShape2D_a54cq")

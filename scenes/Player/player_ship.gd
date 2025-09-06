@@ -6,7 +6,7 @@ func _ready():
 	#starting position
 	position = Vector2(200,500)
 	# ship scale
-	scale =Vector2(.50,.50)
+	scale =Vector2(1,1)
 	# Called every single frame. 'delta' time account for frame rate differences
 	
 # it is the elapsed time since the previous frame

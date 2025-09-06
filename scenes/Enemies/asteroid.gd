@@ -1,4 +1,8 @@
-extends Node2D
+extends Area2D
+
+func _on_body_entered(body):
+	print('body entered')
+	print(body)
 
 # Function when the node enters the scenetree for the first time
 func _ready():
@@ -12,4 +16,3 @@ func _ready():
 func _process(delta):
 	position += Vector2(0, .75) * 60 * delta
 	rotation += (.5) * 3 * delta
-	

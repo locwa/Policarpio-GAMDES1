@@ -1,7 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://t6wawjrybpqx"]
+[gd_scene load_steps=6 format=3 uid="uid://t6wawjrybpqx"]
 
 [ext_resource type="Texture2D" uid="uid://bbchhump1ou51" path="res://scenes/Level/CelestialObjects.png" id="1_oie14"]
-[ext_resource type="Script" uid="uid://bjbfy4igwuq7q" path="res://scenes/Enemies/asteroid.gd" id="2_uahyv"]
+[ext_resource type="Script" uid="uid://fpvpihxem0bn" path="res://scenes/Enemies/asteroid.gd" id="2_uahyv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c8h5f"]
 texture = ExtResource("1_oie14")
@@ -391,20 +391,15 @@ texture = ExtResource("1_oie14")
 sources/0 = SubResource("TileSetAtlasSource_c8h5f")
 sources/1 = SubResource("TileSetScenesCollectionSource_8xnem")
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_uahyv"]
+[node name="Asteroid" type="Area2D"]
+script = ExtResource("2_uahyv")
 
-[node name="Asteroid" type="Node2D"]
-
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-
-[node name="Asteroid1" type="TileMap" parent="CharacterBody2D"]
+[node name="Asteroid1" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_8rvra")
 format = 2
 layer_0/tile_data = PackedInt32Array(-1, 196608, 14, 65535, 196608, 15, -65536, 262144, 14, 0, 262144, 15, -2, 131072, 14, 65534, 131072, 15, -65535, 327680, 14, 1, 327680, 15)
-script = ExtResource("2_uahyv")
 
-[node name="Area2D" type="Area2D" parent="CharacterBody2D" groups=["enemy"]]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(-13, -11, 2, -10, 5, -8, 13, -11, 22, -15, 32, -14, 30, -3, 27, -1, 26, 7, 18, 12, 10, 12, 2, 17, -14, 17, -23, 14, -30, 7, -30, 2, -26, 0, -24, -6, -23, -8, -16, -9)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/Area2D"]
-position = Vector2(0, 1)
-shape = SubResource("CapsuleShape2D_uahyv")
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

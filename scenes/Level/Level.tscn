@@ -7,7 +7,9 @@
 [ext_resource type="PackedScene" uid="uid://djevpr0xwymvi" path="res://scenes/Enemies/AsteroidSmall.tscn" id="5_g4usa"]
 [ext_resource type="PackedScene" uid="uid://t6wawjrybpqx" path="res://scenes/Enemies/AsteroidLarge.tscn" id="6_2krsq"]
 [ext_resource type="PackedScene" uid="uid://bwmpr7i5yfevk" path="res://scenes/Enemies/Planet.tscn" id="7_jwpct"]
-[ext_resource type="PackedScene" uid="uid://s233n6tnqvsv" path="res://scenes/asteroid_boundary.tscn" id="9_2prus"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a54cq"]
+size = Vector2(9, 600)
 
 [node name="Level" type="Node2D"]
 metadata/_edit_group_ = true
@@ -67,10 +69,35 @@ position = Vector2(130, 200)
 [node name="Asteroid3" parent="." instance=ExtResource("6_2krsq")]
 position = Vector2(320, 176)
 
-[node name="AsteroidBoundary" parent="." instance=ExtResource("9_2prus")]
-position = Vector2(-10, 204)
-rotation = 1.57895
+[node name="Borders" type="Node2D" parent="."]
 
-[node name="AsteroidBoundary2" parent="." instance=ExtResource("9_2prus")]
-position = Vector2(411, 205)
-rotation = -4.71686
+[node name="StaticBody2D" type="StaticBody2D" parent="Borders"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D"]
+position = Vector2(-5.5, 300)
+shape = SubResource("RectangleShape2D_a54cq")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Borders"]
+position = Vector2(411, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D2"]
+position = Vector2(-5.5, 300)
+shape = SubResource("RectangleShape2D_a54cq")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Borders"]
+position = Vector2(590, 0)
+rotation = 1.56929
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D3"]
+position = Vector2(-6.58754, 389.991)
+scale = Vector2(1.19264, -0.701591)
+shape = SubResource("RectangleShape2D_a54cq")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="Borders"]
+position = Vector2(590, 612)
+rotation = 1.57133
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D4"]
+position = Vector2(-6.58754, 389.991)
+scale = Vector2(1.19264, -0.701591)
+shape = SubResource("RectangleShape2D_a54cq")

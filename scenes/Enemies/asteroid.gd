@@ -1,5 +1,9 @@
 extends Area2D
 
+var speed: int
+var rotation_speed: int
+var direction_x: float
+
 func _on_body_entered(body):
 	print('body entered')
 	print(body.name)
@@ -15,9 +19,13 @@ func _ready():
 	position = Vector2(random_x,random_y)
 	# Ship Scale
 	scale = Vector2(1, 1)
+	
+	speed = rng.randi_range(60,100)
+	direction_x = rng.randf_range(-0.5, 0.5)
+	rotation_speed = rng.randi_range(1, 5)
 
 # Called every singe frame 'delta' time account for frame rate diff
 # It is the elapsed time since the previous frame
 func _process(delta):
-	position += Vector2(0, .75) * 60 * delta
-	rotation += (.5) * 3 * delta
+	position += Vector2(direction_x, .75) * speed * delta
+	rotation_degrees += rotation_speed * delta
